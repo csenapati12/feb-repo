@@ -4,7 +4,7 @@ node(){
         echo "clone"
         }
         stage('Build'){
-            bat label: '', script: 'mvn package'
+            bat label: '', script: 'mvn compile'
         echo "build"
             
         }
